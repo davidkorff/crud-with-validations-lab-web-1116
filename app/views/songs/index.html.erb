@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <tbody>
+    <% @songs.each do |song| %>
+      <tr>
+        <%= song.title %>
+        <!-- <%= song.release_year %>
+        <%= song.artist_name %>
+        <%= song.genre %> -->
+      </tr>
+    <% end %>
+      </tbody>
+  </body>
+</html>
